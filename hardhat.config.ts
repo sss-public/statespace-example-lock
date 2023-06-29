@@ -10,6 +10,7 @@ const config: HardhatUserConfig = {
     }
   },
   testgen: {
+    sequences: [["Lock.*"]],
     settings: {
       deterministic: ["time"],
     }
