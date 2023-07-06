@@ -12,6 +12,7 @@ const config: HardhatUserConfig = {
   testgen: {
     sequences: [["Lock.*"]],
     settings: {
+      switches: "--use-fresh-eoa=true",
       deterministic: ["time"],
     }
   }
